@@ -5,7 +5,7 @@ author:
 
   github:           sk2504  
   instagram:        your-id
-  email:            cydia@your-email.com
+  email:            cydia@naver.com
 
 copyright:
   year:             2017
@@ -30,7 +30,7 @@ timezone:           Asia/Seoul
 permalink:          /:year-:month-:day/:title/
 
 # Pagination
-paginate:           5
+paginate:           10
 paginate_path:      /page:num/
 
 # Markdown
