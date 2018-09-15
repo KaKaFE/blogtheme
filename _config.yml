@@ -1,93 +1,78 @@
-# External gems
-# See http://ixti.net/software/2013/01/28/using-jekyll-plugins-on-github-pages.html for making `jekyll archives` work.
+# Basic
+name:               "Start"
+
+author:
+
+  github:           sk2504  
+  instagram:        your-id
+  email:            cydia@naver.com
+
+copyright:
+  year:             2017
+  name:             sk2504
+
+# Google-analytics
+google-analytics:
+  id:               ""
+
+# Disqus
+disqus:
+  id:               "sk2504"
+
+# URL
+url:                "https://sk2504.github.io/" # the base hostname & protocol for your site
+# url:                "http://localhost:4000" # use this url when you develop
+baseurl:            "" # the subpath of your site, e.g. /blog
+
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:           Asia/Seoul
+permalink:          /:year-:month-:day/:title/
+
+# Pagination
+paginate:           10
+paginate_path:      /page:num/
+
+# Markdown
+markdown:           kramdown
+kramdown:
+  input:            GFM
+
+# Navigation
+nav:
+  - name:           "About"
+    url:            "/about"
+  - name:           "Archive"
+    url:            "/archive"
+  - name:           "Github"
+    url:            "https://github.com/sk2504"
+  - name:           "Category"
+    url:            "/tags"
+
+# Sass
+sass:
+  sass_dir:         _sass
+  style:            :compressed
+
+# Scopes
+defaults:
+  -
+    scope:
+      path:         ""
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      path:         ""
+      type:         "posts"
+    values:
+      layout:       "post"
+
+# jekyll-seo-tag, see: http://www.rubydoc.info/gems/jekyll-seo-tag/1.2.0
 gems:
-  - jekyll-archives # Sorry, not GitHub pages friendly!
-  - jekyll-sitemap
+  - jekyll-seo-tag
   - jekyll-paginate
+  - jekyll-admin
 
-exclude:
-  - "/vendor/"
-
-# Site settings
-title: Blog
-subtitle: "Today I learned"
-email: cydia@naver.com
-name: cydia 
-description: >
-  A simple yet classy theme for your Jekyll website or blog.
-# Base URL of site (i.e. /blog). It should always start with a slash,
-# and never end with a slash. Set it to a blank value if hosting at the
-# root of your server.
-baseurl: "/centrarium" # the subpath of your site, e.g. /blog/
-url: "https://sk2504.github.io/" # the base hostname & protocol for your site
-cover: "/assets/header_image.jpg"
-logo: "/assets/logo.png"
-
-# Build settings
-markdown: kramdown
-paginate: 5
-paginate_path: "/page:num/"
-inter_post_navigation: false
-highlightjs_theme: "monokai-sublime"
-
-# Archive settings (see https://github.com/jekyll/jekyll-archives/)
-jekyll-archives:
-  enabled:
-    - categories
-    - tags
-  layout: 'archive'
-  permalinks:
-    category: '/category/:name/'
-    tag: '/tag/:name/'
-
-# Disqus comments
-# disqus_shortname: bencentra
-
-# Google analytics
-# ga_tracking_id: "UA-XXXX-1"
-
-# Category descriptions (for archive pages)
-descriptions:
-  - cat: jekyll
-    desc: "Posts describing Jekyll setup techniques."
-
-  - cat: dummy
-    desc: "Just some placeholder posts, lorem ipsum and the rest."
-
-# Social icons and sharing options
-#
-# Social settings are used in two places:
-# * In the footer, as links to your personal profiles
-# * After each blog post for sharing widgets
-#
-# Example:
-#
-# social:
-#   - name: Twitter                         # Name of the service
-#     icon: twitter                         # Font Awesome icon to use (minus fa- prefix)
-#     username: "@TheBenCentra"             # (User) Name to display in the footer link
-#     url: https://twitter.com/TheBenCentra # URL of your profile (leave blank to not display in footer)
-#     desc: Follow me on Twitter            # Description to display as link title, etc
-#     share: true                           # Include in the "Share" section of posts
-social:
-  - name: GitHub
-    icon: github
-    username: bencentra
-    url: https://github.com/sk2504
-    desc: Fork me on GitHub
-    share: false
-
-# Social sharing protocols
-# These are for automatically generating sharing metadata for FB and Twitter
-# OS Protocol is for sharing the source of your site, if you're interested. For more, see osprotocol.com
-protocols:
-    fb_image: "/assets/logo.png"
-    fb_image_width: 612
-    fb_image_height: 605
-    fb_image_type: "image/png"
-
-    twitter_image: "/assets/logo.png"
-
-    os_repo: "https://github.com/bencentra/centrarium.com"
-    os_rcs_type: "git"
-    os_src: "git@github.com:bencentra/centrarium.com.git"
+exclude:            [vendor]

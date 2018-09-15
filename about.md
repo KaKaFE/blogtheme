@@ -1,8 +1,7 @@
 ---
-layout: page
 title: About
 permalink: /about/
 ---
-
-<img src="{{ site.baseurl }}/assets/profile-placeholder.gif" title="Profile Picture" class="profile">
-- TIL 기록 블로그
+![image](/images/2.gif)<br>
+TIL 적는 많이부족한 블로그 입니다.<br>
+적용테마 : Kico-Plus
