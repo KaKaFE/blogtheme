@@ -1,7 +1,12 @@
 ---
+layout: page
 title: About
 permalink: /about/
 ---
-![image](/images/2.gif)<br>
-TIL 적는 많이부족한 블로그 입니다.<br>
-적용테마 : Kico-Plus
+
+TIL을 기록하는 블로그
+
+
+### Email
+
+[cydia@naver.com](mailto:cydia@naver.com)
