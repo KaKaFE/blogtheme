@@ -4,9 +4,5 @@ title: About
 permalink: /about/
 ---
 
-TIL을 기록하는 블로그
-
-
-### Email
-
-[cydia@naver.com](mailto:cydia@naver.com)
+<img src="{{ site.baseurl }}/assets/profile-placeholder.gif" title="Profile Picture" class="profile">
+- TIL 기록 블로그
