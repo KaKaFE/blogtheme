@@ -42,12 +42,13 @@ kramdown:
 nav:
   - name:           "About"
     url:            "/about"
+  - name:           "Category"
+    url:            "/tags"
   - name:           "Archive"
     url:            "/archive"
   - name:           "Github"
     url:            "https://github.com/sk2504"
-  - name:           "Category"
-    url:            "/tags"
+
 
 # Sass
 sass:
