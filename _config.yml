@@ -1,6 +1,6 @@
 # Basic
-avatar:             https://avatars0.githubusercontent.com/u/22962121?s=400&u=fb89bb28a95e23464def53c0674cb825362afd18&v=4
-name:               "Blog"
+
+name:               "KaKa Blog"
 
 author:
 
@@ -18,7 +18,7 @@ google-analytics:
 
 # Disqus
 disqus:
-  id:               "sk2504"
+  id:               
 
 # URL
 url:                "https://sk2504.github.io/" # the base hostname & protocol for your site
@@ -31,7 +31,7 @@ timezone:           Asia/Seoul
 permalink:          /:year-:month-:day/:title/
 
 # Pagination
-paginate:           10
+paginate:           15
 paginate_path:      /page:num/
 
 # Markdown
